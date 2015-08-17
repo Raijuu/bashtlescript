@@ -57,8 +57,9 @@ declare -A grid
 grid_width=""
 grid_height=""
 
-script_directory=$(dirname "$0")
+script_directory=$(dirname "$0")."/bashtlescriptfiles"
 
+echo script_directory
 # Include necessary source files
 # source "${script_directory}/check-prerequisites.sh"
 
