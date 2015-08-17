@@ -61,7 +61,7 @@ script_directory=$(dirname "$0")/bashtlescriptfiles
 
 echo $script_directory
 # Include necessary source files
-# source "${script_directory}/check-prerequisites.sh"
+source "${script_directory}/check-prerequisites.sh"
 
 
 check_prerequisites ${term_width} ${term_height}
