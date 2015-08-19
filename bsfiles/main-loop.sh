@@ -1,6 +1,8 @@
-sh-gorillas is a demake of QBasic GORILLAS completely rewritten
+#!/bin/bash
+
+# bashtlescript is a guessing game with a naval combat theme
 # in Bash.
-# Copyright (C) 2013 Istvan Szantai <szantaii at sidenote dot hu>
+# Copyright (C) 2015 Grant White 
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -14,12 +16,11 @@ sh-gorillas is a demake of QBasic GORILLAS completely rewritten
 #
 # You should have received a copy of the GNU General Public License
 # along with this program (LICENSE).
-# If not, see <http://www.gnu.org/licenses/>.
-
+# If not, see <http://www.gnu.org/licenses/>
 # Main loop of the game
 main_loop()
 {
-	# Initialize variables, create screen buffer for bash-gorillas
+	# Initialize variables, create screen buffer for bash-tle-scripts 
 	init_main
 	
 	# Play intro and wait for keypress

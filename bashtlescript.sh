@@ -62,7 +62,13 @@ script_directory=$(dirname "$0")/bsfiles
 echo $script_directory
 # Include necessary source files
 source "${script_directory}/check-prerequisites.sh"
-
+source "${script_directory}/create_buffer.sh"
+source "${script_directory}/init_main.sh"
+source "${script_directory}/main-loop.sh"
+source "${script_directory}/play-intro.sh"
+source "${script_directory}/print-intro-outro-frames.sh"
+source "${script_directory}/read-intro-outro-continue-key.sh"
+source "${script_directory}/refresh-screen.sh"
 
 check_prerequisites ${term_width} ${term_height}
 
@@ -86,5 +92,5 @@ For more detailed help please see the file 'README.md'.\n"
 	esac
 done
 
-#main_loop
+main_loop
 
