@@ -57,7 +57,7 @@ declare -A grid
 grid_width=""
 grid_height=""
 
-script_directory=$(dirname "$0")/bashtlescriptfiles
+script_directory=$(dirname "$0")/bsfiles
 
 echo $script_directory
 # Include necessary source files
@@ -73,8 +73,7 @@ do
 		h)
 			tput rmcup
 			printf "bash-tle-script Copyright (C) Grant White \
-\x3c\x73\x7a\x61\x6e\x74\x61\x69\x69\x40\x73\x69\x64\x65\x6e\x6f\
-\x74\x65\x2e\x68\x75\x3e 2015\n\
+2015\n\
 For more detailed help please see the file 'README.md'.\n"
 			exit 0
 			;;
