@@ -26,7 +26,7 @@ init_main()
 	
 	# Capture Ctrl+C key combination to call the 'quit'
 	# function when Ctrl+C key combination is pressed
-	trap quit SIGINT
+      #trap quit SIGINT
 	
 	# Clear the terminal screen
 	clear >> ${buffer}

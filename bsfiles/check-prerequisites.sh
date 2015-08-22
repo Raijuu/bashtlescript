@@ -31,9 +31,9 @@ check_prerequisites()
 		# Restore terminal screen
 		tput rmcup
 		
-		printf "Your system is missing the program 'tput' which is necessary \
-for bash-tle-scripts\nto run. 'tput' can be found in the following packages on \
-the following distributions:\n    Distribution        Package name\n\
+		printf "Your system is missing the program 'tput' which is necessary for bash-tle-scripts\n\
+		to run. 'tput' can be found in the following packages on the following distributions:\n\
+		Distribution        Package name\n\
     ---------------------------------\n    Arch Linux          ncurses\n    \
 Debian              ncurses-bin\n    Fedora              ncurses\n    \
 openSUSE            ncurses-utils\n    Ubuntu              ncurses-bin\n"

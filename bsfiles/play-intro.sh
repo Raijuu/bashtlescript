@@ -55,19 +55,21 @@ opponents ships\n${left_padding}             before they sink all of yours. \
 	do
 		print_frame_stage1
 		refresh_screen
+		read pausehere
 		read_intro_outro_continue_key
-#		print_frame_stage2
-#		refresh_screen
-#		read_intro_outro_continue_key
-#		print_frame_stage3
-#		refresh_screen
-#		read_intro_outro_continue_key
-#		print_frame_stage4
-#		refresh_screen
-#		read_intro_outro_continue_key
-#		print_frame_stage5
-#		refresh_screen
-#		read_intro_outro_continue_key
+		print_frame_stage2
+		refresh_screen
+		read_intro_outro_continue_key
+		print_frame_stage3
+		refresh_screen
+		read_intro_outro_continue_key
+		print_frame_stage4
+		refresh_screen
+		read_intro_outro_continue_key
+		print_frame_stage5
+		refresh_screen
+		read_intro_outro_continue_key
+		echo "still true "
 	done
 	
 	# Clear and refresh screen

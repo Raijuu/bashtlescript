@@ -22,5 +22,6 @@
 refresh_screen()
 {
 	cat "${buffer}"
+	echo "face"
 	printf "" > $buffer
 }

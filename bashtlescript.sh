@@ -59,10 +59,10 @@ grid_height=""
 
 script_directory=$(dirname "$0")/bsfiles
 
-echo $script_directory
+#     echo $script_directory
 # Include necessary source files
 source "${script_directory}/check-prerequisites.sh"
-source "${script_directory}/create_buffer.sh"
+source "${script_directory}/create-buffer.sh"
 source "${script_directory}/init_main.sh"
 source "${script_directory}/main-loop.sh"
 source "${script_directory}/play-intro.sh"
@@ -93,4 +93,3 @@ For more detailed help please see the file 'README.md'.\n"
 done
 
 main_loop
-

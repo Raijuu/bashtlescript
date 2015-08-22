@@ -38,7 +38,6 @@ create_buffer()
 		# If 'mktemp' is available for use,
 		# then create the buffer file using it
 		buffer=$(mktemp --tmpdir=${buffer_directory} ${buffer_name}-XXXXXXXXXX)
-		echo "buffer here in $buffer_directory at the $buffer_name"
 		exit 1
 	else
 		# If 'mktemp' was not available for use,
@@ -51,7 +50,6 @@ create_buffer()
 		
 		# Create the buffer file
 		printf "" > $buffer
-		echo "buffer here in $buffer_directory bad choice, by the $buffer_name"
 		exit 1
 	fi
 }

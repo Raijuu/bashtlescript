@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 # Reads a key from keyboard

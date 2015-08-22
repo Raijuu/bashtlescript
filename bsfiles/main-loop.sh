@@ -25,7 +25,7 @@ main_loop()
 	
 	# Play intro and wait for keypress
 	play_intro
-	
+
 	# Read players' names, max points, gravity
 	read_player_data
 	
